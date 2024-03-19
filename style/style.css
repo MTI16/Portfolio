@@ -1,0 +1,55 @@
+/*Fonts
+font-family: 'Satoshi', sans-serif;
+font-family: 'Boska', serif;
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #31363F;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+#logo {
+    font-weight: bold;
+    font-size: 3rem;
+    color: #DDDDDD;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-left: 1rem;
+    font-size: 1.1rem;
+    color: #DDDDDD;
+    text-transform: uppercase;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+#hero-title {
+    font-size: 6rem;
+    width: 275px;
+    margin-top: 15rem;
+    border-bottom: 10px solid #76885B;
+    line-height: 5.6rem;
+    font-family: 'Boska', serif;
+    color: #DDDDDD;
+}
