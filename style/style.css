@@ -45,6 +45,14 @@ header {
     font-size: 1.2rem;
 }
 
+.container-nav a:hover {
+    text-decoration: underline;
+}
+
+#home-link {
+    text-decoration: underline;
+}
+
 main {
     width: 70%;
     margin: 0 auto;
