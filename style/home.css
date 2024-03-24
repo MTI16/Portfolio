@@ -50,7 +50,7 @@ header {
 main {
     width: 70%;
     margin: 0 auto;
-    margin-top: 3rem;
+    margin-top: 5rem;
     display: grid;
     grid-template-columns: 30% 70%;
 }
