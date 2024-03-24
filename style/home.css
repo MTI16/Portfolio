@@ -246,7 +246,7 @@ main {
     }
 }
 
-@media only screen and (max-width: 1400px) {
+@media only screen and (max-width: 1450px) {
     .content {
         justify-content: space-around;
     }
@@ -277,7 +277,7 @@ main {
     }
 }
 
-@media only screen and (max-width: 1260px) {
+@media only screen and (max-width: 1300px) {
     .content {
         justify-content: space-around;
     }
