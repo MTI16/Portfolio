@@ -97,6 +97,15 @@ main {
     flex-direction: column;
 }
 
+.git-github-pic {
+    display: flex;
+    flex-direction: column;
+}
+
+#stack-git-github {
+    border: none;
+}
+
 .content {
     border: 1px solid black;
 }
