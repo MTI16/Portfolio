@@ -158,7 +158,6 @@ main {
 .github img {
     height: 230px;
     border-radius: 25px;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
     float: left;
 }
 
@@ -176,6 +175,7 @@ main {
 
 .welcome p {
     font-size: .9rem;
+    padding: 0 1rem;
 }
 
 .content-down {
@@ -192,7 +192,6 @@ main {
     border-radius: 25px;
     text-align: center;
     color: #FFFCF9;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
 }
 
 .location h3 {
@@ -207,7 +206,6 @@ main {
 .spotify img {
     height: 230px;
     border-radius: 25px;
-    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
     float: right;
 }
 
@@ -228,3 +226,172 @@ main {
     transform: scale(1.1);
 }
 
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 1600px) {
+    .content {
+        justify-content: space-around;
+    }
+    
+    .github img {
+        height: 200px;
+    }
+
+    .spotify img {
+        height: 200px;
+    }
+
+    .location {
+        height: 200px;
+    }
+}
+
+@media only screen and (max-width: 1400px) {
+    .content {
+        justify-content: space-around;
+    }
+    
+    .github img {
+        height: 180px;
+    }
+
+    .spotify img {
+        height: 180px;
+    }
+
+    .location {
+        height: 180px;
+    }
+    
+    #tech-stack-title {
+        font-size: 2rem;
+    }
+
+    .welcome h3 {
+        font-size: 3rem;
+        padding-top: 3rem;
+    }
+    
+    .welcome p {
+        font-size: .85rem;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    .content {
+        justify-content: space-around;
+    }
+    
+    .github img {
+        height: 160px;
+    }
+
+    .spotify img {
+        height: 160px;
+    }
+
+    .location {
+        height: 160px;
+    }
+    
+    #tech-stack-title {
+        font-size: 2rem;
+    }
+
+    .welcome h3 {
+        font-size: 2.5rem;
+        padding-top: 2rem;
+    }
+    
+    .welcome p {
+        font-size: .85rem;
+    }
+}
+
+@media only screen and (max-width: 1130px) {
+    .content {
+        justify-content: space-around;
+    }
+    
+    .github img {
+        height: 140px;
+    }
+
+    .spotify img {
+        height: 140px;
+    }
+
+    .location {
+        height: 140px;
+    }
+    
+    #tech-stack-title {
+        font-size: 1.5rem;
+    }
+
+    .container-stack p {
+        font-size: .8rem;
+    }
+
+    .welcome h3 {
+        font-size: 2rem;
+        padding-top: 1.7rem;
+    }
+    
+    .welcome p {
+        font-size: .7rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    header {
+        width: 50%;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tech-stack {
+        width: 300px;
+        margin: 0 auto;
+    }
+
+    .content-up {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+
+    .welcome {
+        margin-top: 2rem;
+        width: 400px;
+        height: 200px;
+        padding-top: 1.5rem;
+        margin-bottom: 2rem;
+    }
+
+    .welcome h3 {
+        font-size: 3rem;
+    }
+
+    .welcome p {
+        font-size: 1rem;
+    }
+
+    .content-down {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .container-nav {
+        width: 200px;
+        margin: 0 auto;
+        background-color: #FFF4E8;
+        box-shadow: none;
+    }
+}
