@@ -51,8 +51,6 @@ main {
     width: 70%;
     margin: 0 auto;
     margin-top: 5rem;
-    display: grid;
-    grid-template-columns: 30% 70%;
 }
 
 /*nav link hover effect*/

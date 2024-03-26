@@ -47,14 +47,6 @@ header {
     font-size: 1.2rem;
 }
 
-main {
-    width: 70%;
-    margin: 0 auto;
-    margin-top: 5rem;
-    display: grid;
-    grid-template-columns: 30% 70%;
-}
-
 /*nav link hover effect*/
 
 .hvr-underline-from-center {
@@ -85,4 +77,57 @@ main {
 .hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
     left: 0;
     right: 0;
+}
+
+main {
+    width: 70%;
+    margin: 0 auto;
+    margin-top: 5rem;
+}
+
+.container-projects {
+    color: #413941;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#project-img {
+    height: 300px;
+    border-radius: 25px;
+}
+
+.container-text {
+    width: 450px;
+    background-color: #FFFCF9;
+    padding: 1rem;
+    margin-top: 1rem;
+    border-radius: 20px;
+    box-shadow: 0px 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+#project-title {
+    font-size: 1.7rem;
+    margin-bottom: .7rem;
+}
+
+#project-stack {
+    font-size: 1.1rem;
+    margin-bottom: .7rem;
+}
+
+#project-text {
+    margin-bottom: 2.5rem;
+}
+
+#github-link {
+    margin-left: 1rem;
+}
+
+.container-text a {
+    color: #FFFCF9;
+    text-decoration: none;
+    background-color: #413941;
+    border-radius: 20px;
+    padding: .5rem;
 }
