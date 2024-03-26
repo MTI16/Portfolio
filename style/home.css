@@ -333,11 +333,17 @@ main {
 
 @media only screen and (max-width: 600px) {
     .container-nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
         width: 270px;
-        margin: 0 auto;
         background-color: #FFF4E8;
         box-shadow: none;
         border-radius: 0px;
         padding-bottom: .7rem;
+    }
+
+    .container-nav a {
+        margin-bottom: .8rem;
     }
 }
