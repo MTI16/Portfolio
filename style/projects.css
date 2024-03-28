@@ -132,6 +132,19 @@ main {
     padding: .5rem;
 }
 
+@media only screen and (max-width: 1400px) {
+    .container-projects {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .one {
+        margin-bottom: 6rem;
+    }
+}
+
 @media only screen and (max-width: 600px) {
     .container-nav {
         flex-direction: column;
