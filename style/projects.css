@@ -160,4 +160,14 @@ main {
     .container-nav a {
         margin-bottom: .8rem;
     }
+
+    #project-img {
+        height: 250px;
+    }
+
+    .container-text {
+        width: 350px;
+        margin: 0 auto;
+        margin-top: 1rem;
+    }
 }
