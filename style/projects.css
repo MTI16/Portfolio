@@ -79,6 +79,8 @@ header {
     right: 0;
 }
 
+/*CONTENT*/
+
 main {
     width: 70%;
     margin: 0 auto;
@@ -90,6 +92,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 #project-img {
@@ -130,6 +133,10 @@ main {
     background-color: #413941;
     border-radius: 20px;
     padding: .5rem;
+}
+
+.three {
+    margin-top: 3rem;
 }
 
 @media only screen and (max-width: 1400px) {
