@@ -191,16 +191,31 @@ main {
     opacity: .7;
     border-radius: 25px;
     text-align: center;
-    color: #FFFCF9;
 }
 
-.location h3 {
-    font-size: 7rem;
+.location-text {
+    padding-top: 4rem;
+    opacity: 0;
+}
+
+.location-text p{
     font-weight: bold;
+    font-size: 2.5rem;
 }
 
-.location p {
-    font-size: 1.4rem;
+#location-text-heimat {
+    margin-top: -.6rem;
+}
+
+.location:hover {
+    opacity: .4;
+    transition: .4s;
+}
+
+.location-text:hover {
+    opacity: 1;
+    transition: .4s;
+    color: black;
 }
 
 .spotify img {
