@@ -150,6 +150,10 @@ main {
     .one {
         margin-bottom: 6rem;
     }
+
+    .two {
+        margin-bottom: 3rem;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -169,11 +173,11 @@ main {
     }
 
     #project-img {
-        height: 250px;
+        height: 200px;
     }
 
     .container-text {
-        width: 350px;
+        width: 300px;
         margin: 0 auto;
         margin-top: 1rem;
     }
