@@ -209,12 +209,12 @@ main {
 
 .location:hover {
     opacity: .4;
-    transition: .4s;
+    transition: .4s ease-in-out;
 }
 
 .location-text:hover {
     opacity: 1;
-    transition: .4s;
+    transition: .4s ease-in-out;
     color: black;
 }
 
